@@ -1,18 +1,3 @@
-
-//This is a specific part for glitch to keep the bot alive
-const http = require('http');
-const express = require('express');
-const app = express();
-app.get("/", (request, response) => {
-  console.log(new Date().toLocaleString() + " Ping Received");
-  response.sendStatus(200);
-});
-app.listen(process.env.PORT);
-setInterval(() => {
-  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
-}, 250000);
-
-
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const fs = require("fs")
