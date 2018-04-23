@@ -1,0 +1,23 @@
+{
+  "name": "Hyper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mybot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mybot.js"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "node-gyp": "^3.6.2",
+    "opusscript": "0.0.6",
+    "express": "^4.15.5"
+  }
+}
